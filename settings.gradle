@@ -1,2 +1,6 @@
 include ':app'
 rootProject.name='MainModule'
+
+include ':submodule'
+project(':submodule').projectDir = new File('submodule')
+
